@@ -1,29 +1,29 @@
-# graduation
-毕业设计管理系统可以分为五个模块：登录模块，选题模块，信息管理模块，流程管理模块，文件管理模块。
-- 该系统在技术上使用Spring+SpringMVC+MyBatis整合框架作为后台开发框架，AmazeUI作为前端开发框架。
-并使用Ehcache作为项目的缓存，druid作为项目的数据库连接池，使用FreeMarker实现word的导出，使用Shiro完成项目的登录认证，数据库使用的则是MySQL。
-- 该系统可以分为两类角色：学生，教师。
-- 该系统前端界面使用纯HTML实现，与后台的交互则都是通过Ajax完成。
-## 登录模块
-登录模块主要完成教师，学生用户的登录功能，每个角色登录之后会看到不同的操作界面。
-## 选题模块
-选题模块主要完成师生双选这一业务流程。
-## 信息管理模块
-信息管理模块主要完成对各种信息的crud操作。
-## 流程管理模块
-流程管理主要完成对开题报告，中期检查，免答辩申请，验收/答辩，论文审核流程的管理。
-## 文件管理模块
-文件管理模块主要对文件的上传与下载。
+# Management system
+The graduation project management system can be divided into five modules: Login Module, Topic Selection Module, Information Management Module, Process Management Module, and File Management Module.
 
-## 部分界面
-- 登录(学生,教师统一使用该登录界面进行登录)
+Technically, the system uses the Spring+SpringMVC+MyBatis integration framework for backend development, and AmazeUI for frontend development. It also uses Ehcache for project caching, druid as the project's database connection pool, FreeMarker to export Word documents, and Shiro for login authentication. The database used is MySQL.
+The system can be divided into two types of roles: Student and Teacher.
+The frontend interface is implemented in pure HTML, and all interactions with the backend are completed via Ajax.
+## Login Module
+The Login Module primarily handles the login functionality for teacher and student users, with each role seeing a different interface upon logging in.
+## Topic Selection Module
+The Topic Selection Module primarily handles the process of teachers and students mutually selecting topics.
+## Information Management Module
+The Information Management Module primarily handles CRUD operations for various types of information.
+## Process Management Module
+The Process Management Module primarily handles the management of the thesis proposal report, mid-term check, thesis defense exemption application, acceptance/defense, and thesis review processes.
+## File Management Module
+The File Management Module primarily manages file uploads and downloads.
+
+## Some Interfaces
+- Login (Both students and teachers use this login interface to log in)
 !["登录"](screen/login.png)
 
-- 主页(主页可以看到一些内容概要与相关提示)
+- Home Page (The home page displays some content summaries and related prompts)
 !["主页"](screen/index.png)
 
-- 教师列表(通过选择某一教师进而选择其课题)
+- Teacher List (By selecting a teacher, one can then choose their topic)
 !["教师列表"](screen/choose.png)
 
-- 申报课题(教师只有填写课题名之后才可以申报课题)
+- Topic Declaration (Teachers can only declare a topic after filling in the topic name)# Management-system
 !["申报课题"](screen/kt.png)# Management-system
