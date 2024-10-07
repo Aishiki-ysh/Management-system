@@ -26,4 +26,9 @@ The File Management Module primarily manages file uploads and downloads.
 !["教师列表"](screen/choose.png)
 
 - Topic Declaration (Teachers can only declare a topic after filling in the topic name)# Management-system
-!["申报课题"](screen/kt.png)# Management-system
+!["申报课题"](screen/kt.png)
+
+- Project structure
+!["项目结构"](screen/project.jpg)
+
+# Management-system
